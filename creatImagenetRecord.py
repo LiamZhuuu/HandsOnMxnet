@@ -8,4 +8,7 @@ for line in labels.readlines():
 	label = int(line)
 	image_path = 'ILSVRC2012_val_%08d.JPEG' % index
 	imageList.write('%d\t%d\t%s\n' % (index, label, image_path))
+	
+	if index == 1000:
+		break
 	index += 1
