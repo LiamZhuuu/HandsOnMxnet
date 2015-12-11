@@ -1,0 +1,6 @@
+ILSVRC2012/*
+*.rec
+*.caffemodel
+*.params
+.ipynb_checkpoints/*
+*.*~
